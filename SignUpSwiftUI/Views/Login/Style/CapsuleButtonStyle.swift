@@ -30,6 +30,3 @@ struct CapsuleButtonStyle: ButtonStyle {
     
 }
 
-#Preview {
-    CapsuleButtonStyle()
-}

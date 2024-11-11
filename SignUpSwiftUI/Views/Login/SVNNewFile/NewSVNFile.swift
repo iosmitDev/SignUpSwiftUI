@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct NewSVNFIle: View {
+struct NewSVNFile: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    NewSVNFIle()
+    NewSVNFile()
 }
