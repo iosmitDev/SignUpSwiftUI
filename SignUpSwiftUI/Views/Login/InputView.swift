@@ -10,7 +10,7 @@ import SwiftUI
 struct InputView: View {
     
     var body: some View {
-        Text("Welcome Input view")
+        Text("Welcome Input view Main")
     }
 }
 
