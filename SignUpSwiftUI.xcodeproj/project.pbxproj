@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		118F7D642CE74F2D0051965F /* TestRevertCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118F7D632CE74F2D0051965F /* TestRevertCheck.swift */; };
 		11C226892CE2385600245546 /* NewSVNFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C226882CE2385600245546 /* NewSVNFile.swift */; };
 		11DECDBA2CE0C1EF00526954 /* NewLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECDB92CE0C1EF00526954 /* NewLoginView.swift */; };
 		11DECDBC2CE0C3E800526954 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECDBB2CE0C3E800526954 /* InputView.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		118F7D632CE74F2D0051965F /* TestRevertCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestRevertCheck.swift; sourceTree = "<group>"; };
 		11C226882CE2385600245546 /* NewSVNFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSVNFile.swift; sourceTree = "<group>"; };
 		11DECDB92CE0C1EF00526954 /* NewLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLoginView.swift; sourceTree = "<group>"; };
 		11DECDBB2CE0C3E800526954 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
@@ -163,13 +165,6 @@
 			path = SignUpSwiftUIUITests;
 			sourceTree = "<group>";
 		};
-		11ED73E42CDFF5D2009FAC23 /* Splash Screen */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Splash Screen";
-			sourceTree = "<group>";
-		};
 		11ED73E52CDFF5E1009FAC23 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,7 +173,7 @@
 				11ED73E72CDFF5F6009FAC23 /* Signup */,
 				11ED73E62CDFF5F1009FAC23 /* Login */,
 				11ED73BC2CDFEE3F009FAC23 /* ContentView.swift */,
-				11ED73E42CDFF5D2009FAC23 /* Splash Screen */,
+				118F7D632CE74F2D0051965F /* TestRevertCheck.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -359,6 +354,7 @@
 				11ED73EC2CDFF6F5009FAC23 /* SignupView.swift in Sources */,
 				11ED73EA2CDFF6EC009FAC23 /* LoginView.swift in Sources */,
 				11DECDBC2CE0C3E800526954 /* InputView.swift in Sources */,
+				118F7D642CE74F2D0051965F /* TestRevertCheck.swift in Sources */,
 				11C226892CE2385600245546 /* NewSVNFile.swift in Sources */,
 				11ED73BD2CDFEE3F009FAC23 /* ContentView.swift in Sources */,
 				11ED73BB2CDFEE3F009FAC23 /* SignUpSwiftUIApp.swift in Sources */,
