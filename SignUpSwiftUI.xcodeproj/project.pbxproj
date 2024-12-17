@@ -66,6 +66,7 @@
 		11EFC5E52CF35D1800150B9E /* StructClassActorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFC5E42CF35D1800150B9E /* StructClassActorTest.swift */; };
 		11EFC5E72CF3961600150B9E /* ActorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFC5E62CF3961600150B9E /* ActorsTest.swift */; };
 		11F2A7212D119C3900E47F78 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2A7202D119C3900E47F78 /* ChartView.swift */; };
+		11F2A7232D119DA600E47F78 /* MockChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2A7222D119DA600E47F78 /* MockChartData.swift */; };
 		11FAF5F22CECA0850038C0F1 /* AsyncCallOneByOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAF5F12CECA0850038C0F1 /* AsyncCallOneByOne.swift */; };
 		11FAF5F42CECA0910038C0F1 /* AsyncCallParallel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAF5F32CECA0910038C0F1 /* AsyncCallParallel.swift */; };
 		11FAF5F62CECA0BF0038C0F1 /* AsyncDownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAF5F52CECA0BF0038C0F1 /* AsyncDownloadImage.swift */; };
@@ -150,6 +151,7 @@
 		11EFC5E42CF35D1800150B9E /* StructClassActorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActorTest.swift; sourceTree = "<group>"; };
 		11EFC5E62CF3961600150B9E /* ActorsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsTest.swift; sourceTree = "<group>"; };
 		11F2A7202D119C3900E47F78 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		11F2A7222D119DA600E47F78 /* MockChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChartData.swift; sourceTree = "<group>"; };
 		11FAF5F12CECA0850038C0F1 /* AsyncCallOneByOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncCallOneByOne.swift; sourceTree = "<group>"; };
 		11FAF5F32CECA0910038C0F1 /* AsyncCallParallel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncCallParallel.swift; sourceTree = "<group>"; };
 		11FAF5F52CECA0BF0038C0F1 /* AsyncDownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDownloadImage.swift; sourceTree = "<group>"; };
@@ -525,6 +527,7 @@
 			isa = PBXGroup;
 			children = (
 				11F2A7202D119C3900E47F78 /* ChartView.swift */,
+				11F2A7222D119DA600E47F78 /* MockChartData.swift */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -726,6 +729,7 @@
 				118899732CF8BD5A00A05AA0 /* ObservableTest.swift in Sources */,
 				117C09E12CFB38250061FAA9 /* SDWebImageDemo.swift in Sources */,
 				11ED73EA2CDFF6EC009FAC23 /* LoginView.swift in Sources */,
+				11F2A7232D119DA600E47F78 /* MockChartData.swift in Sources */,
 				11DECDBC2CE0C3E800526954 /* InputView.swift in Sources */,
 				11FF9F662D045A07006D967D /* SwiftUIViewEssential.swift in Sources */,
 				11FAF5F22CECA0850038C0F1 /* AsyncCallOneByOne.swift in Sources */,
