@@ -7,10 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113595722CEDF012005F7A63 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113595712CEDF012005F7A63 /* DownloadImageAsync.swift */; };
+		11424E832D10CF86003FEAC7 /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11424E822D10CF86003FEAC7 /* MockDataService.swift */; };
+		11424E852D10CFD1003FEAC7 /* MockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11424E842D10CFD1003FEAC7 /* MockDataService_Tests.swift */; };
+		1143B2282CEA5A2F00A22A91 /* MatchedGeometryEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143B2272CEA5A2F00A22A91 /* MatchedGeometryEffectView.swift */; };
+		11521FBA2D0E18480032154F /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11521FB92D0E18480032154F /* CustomNavBarView.swift */; };
+		11521FBD2D0E1EB60032154F /* UnitTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11521FBC2D0E1EB60032154F /* UnitTestingView.swift */; };
+		11521FBF2D0E23FC0032154F /* UnitTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11521FBE2D0E23FC0032154F /* UnitTestingViewModel.swift */; };
+		11521FC12D0E3A9E0032154F /* SignUpSwiftUI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11521FC02D0E3A9E0032154F /* SignUpSwiftUI_Tests.swift */; };
+		117A44B52CF73DB20036CAAF /* RefreshableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A44B42CF73DB20036CAAF /* RefreshableTest.swift */; };
+		117A44B72CF7C3D00036CAAF /* StrongSelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A44B62CF7C3D00036CAAF /* StrongSelfTest.swift */; };
+		117C09E12CFB38250061FAA9 /* SDWebImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117C09E02CFB38250061FAA9 /* SDWebImageDemo.swift */; };
+		117C09E42CFB38620061FAA9 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 117C09E32CFB38620061FAA9 /* SDWebImageSwiftUI */; };
+		117C09E72CFB89120061FAA9 /* KingfisherImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117C09E62CFB89120061FAA9 /* KingfisherImageLoader.swift */; };
+		117C09EA2CFB89560061FAA9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 117C09E92CFB89560061FAA9 /* Kingfisher */; };
+		118899712CF8B91F00A05AA0 /* SearchableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118899702CF8B91F00A05AA0 /* SearchableTest.swift */; };
+		118899732CF8BD5A00A05AA0 /* ObservableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118899722CF8BD5A00A05AA0 /* ObservableTest.swift */; };
+		118899752CF9190800A05AA0 /* AsyncStreamTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118899742CF9190800A05AA0 /* AsyncStreamTest.swift */; };
+		118F7D682CE789830051965F /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118F7D672CE789830051965F /* AudioPlayerView.swift */; };
+		118F7D6A2CE78A090051965F /* audioFile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 118F7D692CE78A090051965F /* audioFile.mp3 */; };
+		1192E3762CEF13DD004640C1 /* AsyncAwaitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1192E3752CEF13DD004640C1 /* AsyncAwaitTest.swift */; };
+		1193C2052D0C689B000FF52B /* CustomViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1193C2042D0C689B000FF52B /* CustomViewModifier.swift */; };
+		11B490BC2D0CDA5F009FE53F /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B490BB2D0CDA5F009FE53F /* CustomButtonStyle.swift */; };
+		11B490BF2D0CDF5C009FE53F /* CustomOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B490BE2D0CDF5C009FE53F /* CustomOperator.swift */; };
 		11C226892CE2385600245546 /* NewSVNFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C226882CE2385600245546 /* NewSVNFile.swift */; };
+		11C4F26B2CFEF93900659317 /* BackgroundThreadTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C4F26A2CFEF93900659317 /* BackgroundThreadTest.swift */; };
+		11CC24B02D030846001B4DBF /* SortFilterMapTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CC24AF2D030846001B4DBF /* SortFilterMapTest.swift */; };
+		11CC24B32D030859001B4DBF /* ProtocolTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CC24B22D030859001B4DBF /* ProtocolTest.swift */; };
+		11D2D1EC2CF126EE003BE247 /* CheckedContinuationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D2D1EB2CF126EE003BE247 /* CheckedContinuationTest.swift */; };
+		11D3C3552CFDD4CD00D7E407 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 11D3C3542CFDD4CD00D7E407 /* KeychainSwift */; };
+		11D3C3572CFDD4E500D7E407 /* KeychainSwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3C3562CFDD4E500D7E407 /* KeychainSwiftTest.swift */; };
+		11D3C35A2CFDD51800D7E407 /* SwiftFulUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D3C3592CFDD51800D7E407 /* SwiftFulUITest.swift */; };
+		11D93A022CFC91FC00AA9C43 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 11D93A012CFC91FC00AA9C43 /* Lottie */; };
+		11D93A052CFC921400AA9C43 /* LottieAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D93A042CFC921400AA9C43 /* LottieAnimationView.swift */; };
+		11D93A072CFC9AAD00AA9C43 /* startAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 11D93A062CFC9AAC00AA9C43 /* startAnimation.json */; };
+		11D93A092CFC9B4A00AA9C43 /* startAnimation2.json in Resources */ = {isa = PBXBuildFile; fileRef = 11D93A082CFC9B4A00AA9C43 /* startAnimation2.json */; };
+		11D93A0C2CFCEBBE00AA9C43 /* HashableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D93A0B2CFCEBBE00AA9C43 /* HashableTest.swift */; };
+		11D93A0E2CFCFAC500AA9C43 /* MapSortFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D93A0D2CFCFAC500AA9C43 /* MapSortFilter.swift */; };
+		11D93A122CFCFBD200AA9C43 /* ForInLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D93A112CFCFBD200AA9C43 /* ForInLoops.swift */; };
 		11DECDBA2CE0C1EF00526954 /* NewLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECDB92CE0C1EF00526954 /* NewLoginView.swift */; };
 		11DECDBC2CE0C3E800526954 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECDBB2CE0C3E800526954 /* InputView.swift */; };
 		11DECDBF2CE14C7400526954 /* CapsuleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DECDBE2CE14C7400526954 /* CapsuleButtonStyle.swift */; };
+		11DEF3C92CF071E5005EAFEB /* AsyncLetTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DEF3C82CF071E5005EAFEB /* AsyncLetTask.swift */; };
+		11DEF3CB2CF0C2CC005EAFEB /* TaskGroupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DEF3CA2CF0C2CC005EAFEB /* TaskGroupTest.swift */; };
 		11ED73BB2CDFEE3F009FAC23 /* SignUpSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED73BA2CDFEE3F009FAC23 /* SignUpSwiftUIApp.swift */; };
 		11ED73BD2CDFEE3F009FAC23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED73BC2CDFEE3F009FAC23 /* ContentView.swift */; };
 		11ED73BF2CDFEE40009FAC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11ED73BE2CDFEE40009FAC23 /* Assets.xcassets */; };
@@ -24,6 +63,15 @@
 		11ED73F12CDFF8F0009FAC23 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED73F02CDFF8F0009FAC23 /* View+Extensions.swift */; };
 		11ED73F32CDFFF22009FAC23 /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED73F22CDFFF22009FAC23 /* CustomTF.swift */; };
 		11ED73F52CE019EE009FAC23 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ED73F42CE019EE009FAC23 /* GradientButton.swift */; };
+		11EFC5E52CF35D1800150B9E /* StructClassActorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFC5E42CF35D1800150B9E /* StructClassActorTest.swift */; };
+		11EFC5E72CF3961600150B9E /* ActorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFC5E62CF3961600150B9E /* ActorsTest.swift */; };
+		11F2A7212D119C3900E47F78 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2A7202D119C3900E47F78 /* ChartView.swift */; };
+		11FAF5F22CECA0850038C0F1 /* AsyncCallOneByOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAF5F12CECA0850038C0F1 /* AsyncCallOneByOne.swift */; };
+		11FAF5F42CECA0910038C0F1 /* AsyncCallParallel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAF5F32CECA0910038C0F1 /* AsyncCallParallel.swift */; };
+		11FAF5F62CECA0BF0038C0F1 /* AsyncDownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAF5F52CECA0BF0038C0F1 /* AsyncDownloadImage.swift */; };
+		11FAF5F82CECA0D30038C0F1 /* TaskEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAF5F72CECA0D30038C0F1 /* TaskEnvironment.swift */; };
+		11FAF5FA2CECA0E70038C0F1 /* CustomErrorAndAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAF5F92CECA0E70038C0F1 /* CustomErrorAndAlert.swift */; };
+		11FF9F662D045A07006D967D /* SwiftUIViewEssential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FF9F652D045A07006D967D /* SwiftUIViewEssential.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +92,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		113595712CEDF012005F7A63 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
+		11424E822D10CF86003FEAC7 /* MockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataService.swift; sourceTree = "<group>"; };
+		11424E842D10CFD1003FEAC7 /* MockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataService_Tests.swift; sourceTree = "<group>"; };
+		1143B2272CEA5A2F00A22A91 /* MatchedGeometryEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectView.swift; sourceTree = "<group>"; };
+		11521FB92D0E18480032154F /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		11521FBC2D0E1EB60032154F /* UnitTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingView.swift; sourceTree = "<group>"; };
+		11521FBE2D0E23FC0032154F /* UnitTestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel.swift; sourceTree = "<group>"; };
+		11521FC02D0E3A9E0032154F /* SignUpSwiftUI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSwiftUI_Tests.swift; sourceTree = "<group>"; };
+		117A44B42CF73DB20036CAAF /* RefreshableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableTest.swift; sourceTree = "<group>"; };
+		117A44B62CF7C3D00036CAAF /* StrongSelfTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongSelfTest.swift; sourceTree = "<group>"; };
+		117C09E02CFB38250061FAA9 /* SDWebImageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageDemo.swift; sourceTree = "<group>"; };
+		117C09E62CFB89120061FAA9 /* KingfisherImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherImageLoader.swift; sourceTree = "<group>"; };
+		118899702CF8B91F00A05AA0 /* SearchableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableTest.swift; sourceTree = "<group>"; };
+		118899722CF8BD5A00A05AA0 /* ObservableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableTest.swift; sourceTree = "<group>"; };
+		118899742CF9190800A05AA0 /* AsyncStreamTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStreamTest.swift; sourceTree = "<group>"; };
+		118F7D672CE789830051965F /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		118F7D692CE78A090051965F /* audioFile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audioFile.mp3; sourceTree = "<group>"; };
+		1192E3752CEF13DD004640C1 /* AsyncAwaitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitTest.swift; sourceTree = "<group>"; };
+		1193C2042D0C689B000FF52B /* CustomViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifier.swift; sourceTree = "<group>"; };
+		11B490BB2D0CDA5F009FE53F /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		11B490BE2D0CDF5C009FE53F /* CustomOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperator.swift; sourceTree = "<group>"; };
 		11C226882CE2385600245546 /* NewSVNFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSVNFile.swift; sourceTree = "<group>"; };
+		11C4F26A2CFEF93900659317 /* BackgroundThreadTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadTest.swift; sourceTree = "<group>"; };
+		11CC24AF2D030846001B4DBF /* SortFilterMapTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortFilterMapTest.swift; sourceTree = "<group>"; };
+		11CC24B22D030859001B4DBF /* ProtocolTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTest.swift; sourceTree = "<group>"; };
+		11D2D1EB2CF126EE003BE247 /* CheckedContinuationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckedContinuationTest.swift; sourceTree = "<group>"; };
+		11D3C3562CFDD4E500D7E407 /* KeychainSwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwiftTest.swift; sourceTree = "<group>"; };
+		11D3C3592CFDD51800D7E407 /* SwiftFulUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFulUITest.swift; sourceTree = "<group>"; };
+		11D93A042CFC921400AA9C43 /* LottieAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationView.swift; sourceTree = "<group>"; };
+		11D93A062CFC9AAC00AA9C43 /* startAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = startAnimation.json; sourceTree = "<group>"; };
+		11D93A082CFC9B4A00AA9C43 /* startAnimation2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = startAnimation2.json; sourceTree = "<group>"; };
+		11D93A0B2CFCEBBE00AA9C43 /* HashableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableTest.swift; sourceTree = "<group>"; };
+		11D93A0D2CFCFAC500AA9C43 /* MapSortFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSortFilter.swift; sourceTree = "<group>"; };
+		11D93A112CFCFBD200AA9C43 /* ForInLoops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForInLoops.swift; sourceTree = "<group>"; };
 		11DECDB92CE0C1EF00526954 /* NewLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLoginView.swift; sourceTree = "<group>"; };
 		11DECDBB2CE0C3E800526954 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		11DECDBE2CE14C7400526954 /* CapsuleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButtonStyle.swift; sourceTree = "<group>"; };
+		11DEF3C82CF071E5005EAFEB /* AsyncLetTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetTask.swift; sourceTree = "<group>"; };
+		11DEF3CA2CF0C2CC005EAFEB /* TaskGroupTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupTest.swift; sourceTree = "<group>"; };
 		11ED73B72CDFEE3F009FAC23 /* SignUpSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUpSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11ED73BA2CDFEE3F009FAC23 /* SignUpSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSwiftUIApp.swift; sourceTree = "<group>"; };
 		11ED73BC2CDFEE3F009FAC23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +147,15 @@
 		11ED73F02CDFF8F0009FAC23 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		11ED73F22CDFFF22009FAC23 /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
 		11ED73F42CE019EE009FAC23 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		11EFC5E42CF35D1800150B9E /* StructClassActorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActorTest.swift; sourceTree = "<group>"; };
+		11EFC5E62CF3961600150B9E /* ActorsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsTest.swift; sourceTree = "<group>"; };
+		11F2A7202D119C3900E47F78 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		11FAF5F12CECA0850038C0F1 /* AsyncCallOneByOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncCallOneByOne.swift; sourceTree = "<group>"; };
+		11FAF5F32CECA0910038C0F1 /* AsyncCallParallel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncCallParallel.swift; sourceTree = "<group>"; };
+		11FAF5F52CECA0BF0038C0F1 /* AsyncDownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDownloadImage.swift; sourceTree = "<group>"; };
+		11FAF5F72CECA0D30038C0F1 /* TaskEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEnvironment.swift; sourceTree = "<group>"; };
+		11FAF5F92CECA0E70038C0F1 /* CustomErrorAndAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrorAndAlert.swift; sourceTree = "<group>"; };
+		11FF9F652D045A07006D967D /* SwiftUIViewEssential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewEssential.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +163,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117C09EA2CFB89560061FAA9 /* Kingfisher in Frameworks */,
+				117C09E42CFB38620061FAA9 /* SDWebImageSwiftUI in Frameworks */,
+				11D3C3552CFDD4CD00D7E407 /* KeychainSwift in Frameworks */,
+				11D93A022CFC91FC00AA9C43 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,12 +187,196 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1143B2262CEA59F200A22A91 /* MatchedGeometryEffect */ = {
+			isa = PBXGroup;
+			children = (
+				1143B2272CEA5A2F00A22A91 /* MatchedGeometryEffectView.swift */,
+			);
+			path = MatchedGeometryEffect;
+			sourceTree = "<group>";
+		};
+		11521FB82D0E18220032154F /* CustomNavbar */ = {
+			isa = PBXGroup;
+			children = (
+				11521FB92D0E18480032154F /* CustomNavBarView.swift */,
+			);
+			path = CustomNavbar;
+			sourceTree = "<group>";
+		};
+		11521FBB2D0E1E9E0032154F /* UnitTesting */ = {
+			isa = PBXGroup;
+			children = (
+				11521FBC2D0E1EB60032154F /* UnitTestingView.swift */,
+				11521FBE2D0E23FC0032154F /* UnitTestingViewModel.swift */,
+				11424E822D10CF86003FEAC7 /* MockDataService.swift */,
+			);
+			path = UnitTesting;
+			sourceTree = "<group>";
+		};
+		117C09DE2CFB37F70061FAA9 /* 3rdPartySDKIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				11D3C3582CFDD4FD00D7E407 /* SwiftFulUI */,
+				11D3C3522CFDD4A400D7E407 /* Keychain */,
+				11D93A032CFC920600AA9C43 /* Lottie */,
+				117C09E52CFB88E60061FAA9 /* KingFisher */,
+				117C09DF2CFB380B0061FAA9 /* SDWebimage */,
+			);
+			path = 3rdPartySDKIntegration;
+			sourceTree = "<group>";
+		};
+		117C09DF2CFB380B0061FAA9 /* SDWebimage */ = {
+			isa = PBXGroup;
+			children = (
+				117C09E02CFB38250061FAA9 /* SDWebImageDemo.swift */,
+			);
+			path = SDWebimage;
+			sourceTree = "<group>";
+		};
+		117C09E22CFB38620061FAA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		117C09E52CFB88E60061FAA9 /* KingFisher */ = {
+			isa = PBXGroup;
+			children = (
+				117C09E62CFB89120061FAA9 /* KingfisherImageLoader.swift */,
+			);
+			path = KingFisher;
+			sourceTree = "<group>";
+		};
+		118F7D662CE7896C0051965F /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				118F7D672CE789830051965F /* AudioPlayerView.swift */,
+				118F7D692CE78A090051965F /* audioFile.mp3 */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		1193C2022D0C687D000FF52B /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				11521FB82D0E18220032154F /* CustomNavbar */,
+				11B490BD2D0CDF4A009FE53F /* Custom Operator */,
+				11B490BA2D0CDA4E009FE53F /* ButtonStyle */,
+				1193C2032D0C6888000FF52B /* CustomViewModifier */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		1193C2032D0C6888000FF52B /* CustomViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				1193C2042D0C689B000FF52B /* CustomViewModifier.swift */,
+			);
+			path = CustomViewModifier;
+			sourceTree = "<group>";
+		};
+		11B490BA2D0CDA4E009FE53F /* ButtonStyle */ = {
+			isa = PBXGroup;
+			children = (
+				11B490BB2D0CDA5F009FE53F /* CustomButtonStyle.swift */,
+			);
+			path = ButtonStyle;
+			sourceTree = "<group>";
+		};
+		11B490BD2D0CDF4A009FE53F /* Custom Operator */ = {
+			isa = PBXGroup;
+			children = (
+				11B490BE2D0CDF5C009FE53F /* CustomOperator.swift */,
+			);
+			path = "Custom Operator";
+			sourceTree = "<group>";
+		};
 		11C226872CE2384800245546 /* SVNNewFile */ = {
 			isa = PBXGroup;
 			children = (
 				11C226882CE2385600245546 /* NewSVNFile.swift */,
 			);
 			path = SVNNewFile;
+			sourceTree = "<group>";
+		};
+		11C4F2692CFEF92100659317 /* MainThreadBgThread */ = {
+			isa = PBXGroup;
+			children = (
+				11C4F26A2CFEF93900659317 /* BackgroundThreadTest.swift */,
+			);
+			path = MainThreadBgThread;
+			sourceTree = "<group>";
+		};
+		11CC24AE2D03082E001B4DBF /* SortFilterMap */ = {
+			isa = PBXGroup;
+			children = (
+				11CC24AF2D030846001B4DBF /* SortFilterMapTest.swift */,
+			);
+			path = SortFilterMap;
+			sourceTree = "<group>";
+		};
+		11CC24B12D03084D001B4DBF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				11CC24B22D030859001B4DBF /* ProtocolTest.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		11D3C3512CFDD49E00D7E407 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		11D3C3522CFDD4A400D7E407 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				11D3C3562CFDD4E500D7E407 /* KeychainSwiftTest.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		11D3C3582CFDD4FD00D7E407 /* SwiftFulUI */ = {
+			isa = PBXGroup;
+			children = (
+				11D3C3592CFDD51800D7E407 /* SwiftFulUITest.swift */,
+			);
+			path = SwiftFulUI;
+			sourceTree = "<group>";
+		};
+		11D93A032CFC920600AA9C43 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				11D93A042CFC921400AA9C43 /* LottieAnimationView.swift */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		11D93A0A2CFCD96600AA9C43 /* Hashable */ = {
+			isa = PBXGroup;
+			children = (
+				11D93A0B2CFCEBBE00AA9C43 /* HashableTest.swift */,
+			);
+			path = Hashable;
+			sourceTree = "<group>";
+		};
+		11D93A0F2CFCFB9F00AA9C43 /* MapFilterSort */ = {
+			isa = PBXGroup;
+			children = (
+				11D93A0D2CFCFAC500AA9C43 /* MapSortFilter.swift */,
+			);
+			path = MapFilterSort;
+			sourceTree = "<group>";
+		};
+		11D93A102CFCFBC600AA9C43 /* ForInLoops */ = {
+			isa = PBXGroup;
+			children = (
+				11D93A112CFCFBD200AA9C43 /* ForInLoops.swift */,
+			);
+			path = ForInLoops;
 			sourceTree = "<group>";
 		};
 		11DECDBD2CE14C6100526954 /* Style */ = {
@@ -114,6 +394,7 @@
 				11ED73CA2CDFEE40009FAC23 /* SignUpSwiftUITests */,
 				11ED73D42CDFEE40009FAC23 /* SignUpSwiftUIUITests */,
 				11ED73B82CDFEE3F009FAC23 /* Products */,
+				117C09E22CFB38620061FAA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +413,8 @@
 			children = (
 				11ED73E52CDFF5E1009FAC23 /* Views */,
 				11ED73BA2CDFEE3F009FAC23 /* SignUpSwiftUIApp.swift */,
+				11D93A062CFC9AAC00AA9C43 /* startAnimation.json */,
+				11D93A082CFC9B4A00AA9C43 /* startAnimation2.json */,
 				11ED73BE2CDFEE40009FAC23 /* Assets.xcassets */,
 				11ED73C02CDFEE40009FAC23 /* Preview Content */,
 			);
@@ -150,6 +433,8 @@
 			isa = PBXGroup;
 			children = (
 				11ED73CB2CDFEE40009FAC23 /* SignUpSwiftUITests.swift */,
+				11521FC02D0E3A9E0032154F /* SignUpSwiftUI_Tests.swift */,
+				11424E842D10CFD1003FEAC7 /* MockDataService_Tests.swift */,
 			);
 			path = SignUpSwiftUITests;
 			sourceTree = "<group>";
@@ -173,6 +458,21 @@
 		11ED73E52CDFF5E1009FAC23 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				11F2A71F2D119C2300E47F78 /* Charts */,
+				11521FBB2D0E1E9E0032154F /* UnitTesting */,
+				1193C2022D0C687D000FF52B /* Custom */,
+				11FF9F642D0459F1006D967D /* SwiftUIEssential */,
+				11CC24B12D03084D001B4DBF /* Protocol */,
+				11CC24AE2D03082E001B4DBF /* SortFilterMap */,
+				11C4F2692CFEF92100659317 /* MainThreadBgThread */,
+				11D3C3512CFDD49E00D7E407 /* New Group */,
+				11D93A102CFCFBC600AA9C43 /* ForInLoops */,
+				11D93A0F2CFCFB9F00AA9C43 /* MapFilterSort */,
+				11D93A0A2CFCD96600AA9C43 /* Hashable */,
+				117C09DE2CFB37F70061FAA9 /* 3rdPartySDKIntegration */,
+				11FAF5F02CECA0550038C0F1 /* Conscurrency */,
+				1143B2262CEA59F200A22A91 /* MatchedGeometryEffect */,
+				118F7D662CE7896C0051965F /* AudioPlayer */,
 				11ED73EF2CDFF8CF009FAC23 /* Helpers */,
 				11ED73E82CDFF6DB009FAC23 /* SupportingView */,
 				11ED73E72CDFF5F6009FAC23 /* Signup */,
@@ -221,6 +521,46 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		11F2A71F2D119C2300E47F78 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				11F2A7202D119C3900E47F78 /* ChartView.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		11FAF5F02CECA0550038C0F1 /* Conscurrency */ = {
+			isa = PBXGroup;
+			children = (
+				11FAF5F12CECA0850038C0F1 /* AsyncCallOneByOne.swift */,
+				11FAF5F32CECA0910038C0F1 /* AsyncCallParallel.swift */,
+				11FAF5F52CECA0BF0038C0F1 /* AsyncDownloadImage.swift */,
+				11FAF5F72CECA0D30038C0F1 /* TaskEnvironment.swift */,
+				11FAF5F92CECA0E70038C0F1 /* CustomErrorAndAlert.swift */,
+				113595712CEDF012005F7A63 /* DownloadImageAsync.swift */,
+				1192E3752CEF13DD004640C1 /* AsyncAwaitTest.swift */,
+				11DEF3C82CF071E5005EAFEB /* AsyncLetTask.swift */,
+				11DEF3CA2CF0C2CC005EAFEB /* TaskGroupTest.swift */,
+				11D2D1EB2CF126EE003BE247 /* CheckedContinuationTest.swift */,
+				11EFC5E42CF35D1800150B9E /* StructClassActorTest.swift */,
+				11EFC5E62CF3961600150B9E /* ActorsTest.swift */,
+				117A44B42CF73DB20036CAAF /* RefreshableTest.swift */,
+				117A44B62CF7C3D00036CAAF /* StrongSelfTest.swift */,
+				118899702CF8B91F00A05AA0 /* SearchableTest.swift */,
+				118899722CF8BD5A00A05AA0 /* ObservableTest.swift */,
+				118899742CF9190800A05AA0 /* AsyncStreamTest.swift */,
+			);
+			path = Conscurrency;
+			sourceTree = "<group>";
+		};
+		11FF9F642D0459F1006D967D /* SwiftUIEssential */ = {
+			isa = PBXGroup;
+			children = (
+				11FF9F652D045A07006D967D /* SwiftUIViewEssential.swift */,
+			);
+			path = SwiftUIEssential;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,6 +577,12 @@
 			dependencies = (
 			);
 			name = SignUpSwiftUI;
+			packageProductDependencies = (
+				117C09E32CFB38620061FAA9 /* SDWebImageSwiftUI */,
+				117C09E92CFB89560061FAA9 /* Kingfisher */,
+				11D93A012CFC91FC00AA9C43 /* Lottie */,
+				11D3C3542CFDD4CD00D7E407 /* KeychainSwift */,
+			);
 			productName = SignUpSwiftUI;
 			productReference = 11ED73B72CDFEE3F009FAC23 /* SignUpSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -309,6 +655,12 @@
 				Base,
 			);
 			mainGroup = 11ED73AE2CDFEE3F009FAC23;
+			packageReferences = (
+				117C09DD2CFB37B10061FAA9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				117C09E82CFB89560061FAA9 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				11D93A002CFC91FC00AA9C43 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				11D3C3532CFDD4CD00D7E407 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = 11ED73B82CDFEE3F009FAC23 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -326,6 +678,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11ED73C22CDFEE40009FAC23 /* Preview Assets.xcassets in Resources */,
+				11D93A072CFC9AAD00AA9C43 /* startAnimation.json in Resources */,
+				118F7D6A2CE78A090051965F /* audioFile.mp3 in Resources */,
+				11D93A092CFC9B4A00AA9C43 /* startAnimation2.json in Resources */,
 				11ED73BF2CDFEE40009FAC23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,18 +706,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				118899752CF9190800A05AA0 /* AsyncStreamTest.swift in Sources */,
 				11ED73F12CDFF8F0009FAC23 /* View+Extensions.swift in Sources */,
 				11ED73F52CE019EE009FAC23 /* GradientButton.swift in Sources */,
+				11D2D1EC2CF126EE003BE247 /* CheckedContinuationTest.swift in Sources */,
 				11DECDBA2CE0C1EF00526954 /* NewLoginView.swift in Sources */,
 				11ED73F32CDFFF22009FAC23 /* CustomTF.swift in Sources */,
+				113595722CEDF012005F7A63 /* DownloadImageAsync.swift in Sources */,
+				118899712CF8B91F00A05AA0 /* SearchableTest.swift in Sources */,
+				1193C2052D0C689B000FF52B /* CustomViewModifier.swift in Sources */,
+				11521FBD2D0E1EB60032154F /* UnitTestingView.swift in Sources */,
+				11D93A0C2CFCEBBE00AA9C43 /* HashableTest.swift in Sources */,
+				11B490BF2D0CDF5C009FE53F /* CustomOperator.swift in Sources */,
 				11ED73EE2CDFF6FE009FAC23 /* CustomView.swift in Sources */,
 				11ED73EC2CDFF6F5009FAC23 /* SignupView.swift in Sources */,
+				11521FBA2D0E18480032154F /* CustomNavBarView.swift in Sources */,
+				11424E832D10CF86003FEAC7 /* MockDataService.swift in Sources */,
+				117A44B52CF73DB20036CAAF /* RefreshableTest.swift in Sources */,
+				118899732CF8BD5A00A05AA0 /* ObservableTest.swift in Sources */,
+				117C09E12CFB38250061FAA9 /* SDWebImageDemo.swift in Sources */,
 				11ED73EA2CDFF6EC009FAC23 /* LoginView.swift in Sources */,
 				11DECDBC2CE0C3E800526954 /* InputView.swift in Sources */,
+				11FF9F662D045A07006D967D /* SwiftUIViewEssential.swift in Sources */,
+				11FAF5F22CECA0850038C0F1 /* AsyncCallOneByOne.swift in Sources */,
+				11FAF5F42CECA0910038C0F1 /* AsyncCallParallel.swift in Sources */,
 				11C226892CE2385600245546 /* NewSVNFile.swift in Sources */,
 				11ED73BD2CDFEE3F009FAC23 /* ContentView.swift in Sources */,
+				118F7D682CE789830051965F /* AudioPlayerView.swift in Sources */,
+				11D93A052CFC921400AA9C43 /* LottieAnimationView.swift in Sources */,
+				11D93A0E2CFCFAC500AA9C43 /* MapSortFilter.swift in Sources */,
 				11ED73BB2CDFEE3F009FAC23 /* SignUpSwiftUIApp.swift in Sources */,
+				11DEF3C92CF071E5005EAFEB /* AsyncLetTask.swift in Sources */,
+				11B490BC2D0CDA5F009FE53F /* CustomButtonStyle.swift in Sources */,
+				1192E3762CEF13DD004640C1 /* AsyncAwaitTest.swift in Sources */,
+				11EFC5E52CF35D1800150B9E /* StructClassActorTest.swift in Sources */,
+				11521FBF2D0E23FC0032154F /* UnitTestingViewModel.swift in Sources */,
+				11D93A122CFCFBD200AA9C43 /* ForInLoops.swift in Sources */,
+				11EFC5E72CF3961600150B9E /* ActorsTest.swift in Sources */,
+				11C4F26B2CFEF93900659317 /* BackgroundThreadTest.swift in Sources */,
+				11D3C35A2CFDD51800D7E407 /* SwiftFulUITest.swift in Sources */,
+				11CC24B32D030859001B4DBF /* ProtocolTest.swift in Sources */,
+				11FAF5F82CECA0D30038C0F1 /* TaskEnvironment.swift in Sources */,
+				11DEF3CB2CF0C2CC005EAFEB /* TaskGroupTest.swift in Sources */,
+				1143B2282CEA5A2F00A22A91 /* MatchedGeometryEffectView.swift in Sources */,
+				11D3C3572CFDD4E500D7E407 /* KeychainSwiftTest.swift in Sources */,
+				11F2A7212D119C3900E47F78 /* ChartView.swift in Sources */,
+				11CC24B02D030846001B4DBF /* SortFilterMapTest.swift in Sources */,
+				11FAF5F62CECA0BF0038C0F1 /* AsyncDownloadImage.swift in Sources */,
 				11DECDBF2CE14C7400526954 /* CapsuleButtonStyle.swift in Sources */,
+				117A44B72CF7C3D00036CAAF /* StrongSelfTest.swift in Sources */,
+				11FAF5FA2CECA0E70038C0F1 /* CustomErrorAndAlert.swift in Sources */,
+				117C09E72CFB89120061FAA9 /* KingfisherImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +765,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				11ED73CC2CDFEE40009FAC23 /* SignUpSwiftUITests.swift in Sources */,
+				11521FC12D0E3A9E0032154F /* SignUpSwiftUI_Tests.swift in Sources */,
+				11424E852D10CFD1003FEAC7 /* MockDataService_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,6 +1082,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		117C09DD2CFB37B10061FAA9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+		117C09E82CFB89560061FAA9 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.1.1;
+			};
+		};
+		11D3C3532CFDD4CD00D7E407 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
+			};
+		};
+		11D93A002CFC91FC00AA9C43 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		117C09E32CFB38620061FAA9 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 117C09DD2CFB37B10061FAA9 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		117C09E92CFB89560061FAA9 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 117C09E82CFB89560061FAA9 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		11D3C3542CFDD4CD00D7E407 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11D3C3532CFDD4CD00D7E407 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+		11D93A012CFC91FC00AA9C43 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11D93A002CFC91FC00AA9C43 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 11ED73AF2CDFEE3F009FAC23 /* Project object */;
 }

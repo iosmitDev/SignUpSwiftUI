@@ -11,7 +11,8 @@ import SwiftUI
 struct SignUpSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          //  BackgroundThreadTest()
+            CustomViewModifier()
         }
     }
 }
