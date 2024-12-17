@@ -8,6 +8,27 @@
 import SwiftUI
 import Charts
 
+/*
+ 
+ //Commit messages for Git
+
+ New feature :
+ [Feature] Description of the feature
+
+ Bug in Production :
+ [Patch] Description of the patch
+
+ Bug Not in Production But In my App :
+ [Bug] Description of the bug
+
+ Release Comments on Production :
+ [Release] Description of the release
+
+ Mundane Tasks :
+ [Clean] description of changes
+ 
+ */
+
 struct ChartView: View {
     var body: some View {
         NavigationStack {
