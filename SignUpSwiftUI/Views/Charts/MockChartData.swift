@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import Charts
 
-//We need to create chart so we need id, Color and plottableData
+//We need to create chart so we need id, Color and plottableData => We use Plottable protocol and import charts
 struct MockChartData: Identifiable, Plottable {
     
     var id = UUID().uuidString
