@@ -12,7 +12,12 @@ import Combine
 /*
  
  //Commit messages for Git
-
+ 
+ Clone = Copying the repo locally
+ Commit = Save ("checkpoint") on our current branch
+ Stage = Prepare changes for a commit
+ Stash = Save changes for later
+ 
  New feature :
  [Feature] Description of the feature
 
