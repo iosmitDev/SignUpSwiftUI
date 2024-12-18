@@ -38,7 +38,7 @@ let MockData: [MockChartData] = [
         color: .blue
     )!,
     MockChartData(
-        primitivePlottable: 32,
+        primitivePlottable: 31,
         color: .orange
     )!,
     MockChartData(
