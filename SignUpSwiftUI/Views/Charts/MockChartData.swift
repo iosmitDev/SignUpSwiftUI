@@ -29,13 +29,34 @@ struct MockChartData: Identifiable, Plottable {
 }
 
 let MockData: [MockChartData] = [
-    MockChartData(primitivePlottable: 12, color: .red)!,
-    MockChartData(primitivePlottable: 6, color: .blue)!,
-    MockChartData(primitivePlottable: 32, color: .orange)!,
-    MockChartData(primitivePlottable: 11, color: .green)!,
-    MockChartData(primitivePlottable: 38, color: .purple)!,
-    MockChartData(primitivePlottable: 18, color: .pink)!,
-    MockChartData(primitivePlottable: 7, color: .yellow)!
+    MockChartData(
+        primitivePlottable: 12,
+        color: .red
+    )!,
+    MockChartData(
+        primitivePlottable: 6,
+        color: .blue
+    )!,
+    MockChartData(
+        primitivePlottable: 32,
+        color: .orange
+    )!,
+    MockChartData(
+        primitivePlottable: 11,
+        color: .green
+    )!,
+    MockChartData(
+        primitivePlottable: 38,
+        color: .purple
+    )!,
+    MockChartData(
+        primitivePlottable: 18,
+        color: .pink
+    )!,
+    MockChartData(
+        primitivePlottable: 7,
+        color: .yellow
+    )!
 ]
 
 

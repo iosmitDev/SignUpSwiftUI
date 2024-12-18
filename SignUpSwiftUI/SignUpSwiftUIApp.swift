@@ -12,7 +12,7 @@ struct SignUpSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
           //  BackgroundThreadTest()
-            CustomViewModifier()
+            LoginView()
         }
     }
 }

@@ -67,6 +67,7 @@
 		11EFC5E72CF3961600150B9E /* ActorsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EFC5E62CF3961600150B9E /* ActorsTest.swift */; };
 		11F2A7212D119C3900E47F78 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2A7202D119C3900E47F78 /* ChartView.swift */; };
 		11F2A7232D119DA600E47F78 /* MockChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F2A7222D119DA600E47F78 /* MockChartData.swift */; };
+		11F2A7252D11CCE300E47F78 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F2A7242D11CCE300E47F78 /* Launch Screen.storyboard */; };
 		11FAF5F22CECA0850038C0F1 /* AsyncCallOneByOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAF5F12CECA0850038C0F1 /* AsyncCallOneByOne.swift */; };
 		11FAF5F42CECA0910038C0F1 /* AsyncCallParallel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAF5F32CECA0910038C0F1 /* AsyncCallParallel.swift */; };
 		11FAF5F62CECA0BF0038C0F1 /* AsyncDownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAF5F52CECA0BF0038C0F1 /* AsyncDownloadImage.swift */; };
@@ -152,6 +153,7 @@
 		11EFC5E62CF3961600150B9E /* ActorsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsTest.swift; sourceTree = "<group>"; };
 		11F2A7202D119C3900E47F78 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		11F2A7222D119DA600E47F78 /* MockChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockChartData.swift; sourceTree = "<group>"; };
+		11F2A7242D11CCE300E47F78 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		11FAF5F12CECA0850038C0F1 /* AsyncCallOneByOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncCallOneByOne.swift; sourceTree = "<group>"; };
 		11FAF5F32CECA0910038C0F1 /* AsyncCallParallel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncCallParallel.swift; sourceTree = "<group>"; };
 		11FAF5F52CECA0BF0038C0F1 /* AsyncDownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDownloadImage.swift; sourceTree = "<group>"; };
@@ -392,6 +394,7 @@
 		11ED73AE2CDFEE3F009FAC23 = {
 			isa = PBXGroup;
 			children = (
+				11F2A7242D11CCE300E47F78 /* Launch Screen.storyboard */,
 				11ED73B92CDFEE3F009FAC23 /* SignUpSwiftUI */,
 				11ED73CA2CDFEE40009FAC23 /* SignUpSwiftUITests */,
 				11ED73D42CDFEE40009FAC23 /* SignUpSwiftUIUITests */,
@@ -680,6 +683,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F2A7252D11CCE300E47F78 /* Launch Screen.storyboard in Resources */,
 				11ED73C22CDFEE40009FAC23 /* Preview Assets.xcassets in Resources */,
 				11D93A072CFC9AAD00AA9C43 /* startAnimation.json in Resources */,
 				118F7D6A2CE78A090051965F /* audioFile.mp3 in Resources */,
@@ -928,9 +932,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SignUpSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pino;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -956,9 +963,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SignUpSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Pino;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
