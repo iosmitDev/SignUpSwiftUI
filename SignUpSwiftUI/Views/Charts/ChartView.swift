@@ -54,6 +54,9 @@ struct ChartView: View {
                         }
                        
                 }
+                .onAppear(){
+                    
+                }
                 .chartLegend(.visible)
                 .frame(width: 350, height: 350)
                 Rectangle()
