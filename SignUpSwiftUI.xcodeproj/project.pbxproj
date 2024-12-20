@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11285FF42D160A000061C768 /* exploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11285FF32D160A000061C768 /* exploreView.swift */; };
 		113595722CEDF012005F7A63 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113595712CEDF012005F7A63 /* DownloadImageAsync.swift */; };
 		11424E832D10CF86003FEAC7 /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11424E822D10CF86003FEAC7 /* MockDataService.swift */; };
 		11424E852D10CFD1003FEAC7 /* MockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11424E842D10CFD1003FEAC7 /* MockDataService_Tests.swift */; };
@@ -94,6 +95,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11285FF32D160A000061C768 /* exploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exploreView.swift; sourceTree = "<group>"; };
 		113595712CEDF012005F7A63 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 		11424E822D10CF86003FEAC7 /* MockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataService.swift; sourceTree = "<group>"; };
 		11424E842D10CFD1003FEAC7 /* MockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataService_Tests.swift; sourceTree = "<group>"; };
@@ -531,6 +533,7 @@
 			children = (
 				11F2A7202D119C3900E47F78 /* ChartView.swift */,
 				11F2A7222D119DA600E47F78 /* MockChartData.swift */,
+				11285FF32D160A000061C768 /* exploreView.swift */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -718,6 +721,7 @@
 				11ED73F52CE019EE009FAC23 /* GradientButton.swift in Sources */,
 				11D2D1EC2CF126EE003BE247 /* CheckedContinuationTest.swift in Sources */,
 				11DECDBA2CE0C1EF00526954 /* NewLoginView.swift in Sources */,
+				11285FF42D160A000061C768 /* exploreView.swift in Sources */,
 				11ED73F32CDFFF22009FAC23 /* CustomTF.swift in Sources */,
 				113595722CEDF012005F7A63 /* DownloadImageAsync.swift in Sources */,
 				118899712CF8B91F00A05AA0 /* SearchableTest.swift in Sources */,
