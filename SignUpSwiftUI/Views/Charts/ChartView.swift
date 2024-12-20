@@ -65,7 +65,7 @@ struct ChartView: View {
                     .cornerRadius(20)
             }
             .padding()
-            .navigationTitle("Pie Charts")
+            .navigationTitle("Pie Charts.")
             Spacer()
         }
         
