@@ -17,6 +17,8 @@ import Combine
  Commit = Save ("checkpoint") on our current branch
  Stage = Prepare changes for a commit
  Stash = Save changes for later
+ Push = Send local commits to remote repo
+ Pull = fetch remote commits to local repo
  
  New feature :
  [Feature] Description of the feature
