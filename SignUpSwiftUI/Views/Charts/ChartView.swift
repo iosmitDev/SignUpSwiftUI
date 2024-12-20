@@ -19,6 +19,7 @@ import Combine
  Stash = Save changes for later
  Push = Send local commits to remote repo
  Pull = fetch remote commits to local repo
+ Branch = Create new branch from main
  
  New feature :
  [Feature] Description of the feature
