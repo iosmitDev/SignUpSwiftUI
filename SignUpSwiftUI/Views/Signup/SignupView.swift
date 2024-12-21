@@ -9,9 +9,10 @@ import SwiftUI
 
 struct SignupView: View {
     var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         
         VStack {
-            Image(systemName: "house")
+            Image(systemName: "bolt")
             
         }
     }
