@@ -63,7 +63,7 @@ struct ChartView: View {
                 Rectangle()
                     .overlay {
                         Color.red
-                        Text("Welcome now")
+                        Text("Welcome now..")
                             .foregroundStyle(.white)
                     }
                     .cornerRadius(20)
