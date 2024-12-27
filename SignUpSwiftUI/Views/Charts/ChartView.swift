@@ -20,6 +20,7 @@ import Combine
  Push = Send local commits to remote repo
  Pull = fetch remote commits to local repo
  Branch = Create new branch from main
+ Pull Request (PR) = Request to merge branch
  
  New feature :
  [Feature] Description of the feature
