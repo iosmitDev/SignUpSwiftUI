@@ -65,7 +65,7 @@ struct ChartView: View {
                 Rectangle()
                     .overlay {
                         Color.red
-                        Text("Welcome now..")
+                        Text("Welcome now New settingView")
                             .foregroundStyle(.white)
                     }
                     .cornerRadius(20)
