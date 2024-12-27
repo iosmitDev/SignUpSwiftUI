@@ -16,6 +16,7 @@
 		11521FBD2D0E1EB60032154F /* UnitTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11521FBC2D0E1EB60032154F /* UnitTestingView.swift */; };
 		11521FBF2D0E23FC0032154F /* UnitTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11521FBE2D0E23FC0032154F /* UnitTestingViewModel.swift */; };
 		11521FC12D0E3A9E0032154F /* SignUpSwiftUI_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11521FC02D0E3A9E0032154F /* SignUpSwiftUI_Tests.swift */; };
+		1167F0052D1F5BF100D734A6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1167F0042D1F5BF100D734A6 /* SettingsView.swift */; };
 		117A44B52CF73DB20036CAAF /* RefreshableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A44B42CF73DB20036CAAF /* RefreshableTest.swift */; };
 		117A44B72CF7C3D00036CAAF /* StrongSelfTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A44B62CF7C3D00036CAAF /* StrongSelfTest.swift */; };
 		117C09E12CFB38250061FAA9 /* SDWebImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117C09E02CFB38250061FAA9 /* SDWebImageDemo.swift */; };
@@ -104,6 +105,7 @@
 		11521FBC2D0E1EB60032154F /* UnitTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingView.swift; sourceTree = "<group>"; };
 		11521FBE2D0E23FC0032154F /* UnitTestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel.swift; sourceTree = "<group>"; };
 		11521FC02D0E3A9E0032154F /* SignUpSwiftUI_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSwiftUI_Tests.swift; sourceTree = "<group>"; };
+		1167F0042D1F5BF100D734A6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		117A44B42CF73DB20036CAAF /* RefreshableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableTest.swift; sourceTree = "<group>"; };
 		117A44B62CF7C3D00036CAAF /* StrongSelfTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongSelfTest.swift; sourceTree = "<group>"; };
 		117C09E02CFB38250061FAA9 /* SDWebImageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageDemo.swift; sourceTree = "<group>"; };
@@ -486,6 +488,7 @@
 				11ED73E62CDFF5F1009FAC23 /* Login */,
 				11ED73BC2CDFEE3F009FAC23 /* ContentView.swift */,
 				11ED73E42CDFF5D2009FAC23 /* Splash Screen */,
+				1167F0042D1F5BF100D734A6 /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -737,6 +740,7 @@
 				118899732CF8BD5A00A05AA0 /* ObservableTest.swift in Sources */,
 				117C09E12CFB38250061FAA9 /* SDWebImageDemo.swift in Sources */,
 				11ED73EA2CDFF6EC009FAC23 /* LoginView.swift in Sources */,
+				1167F0052D1F5BF100D734A6 /* SettingsView.swift in Sources */,
 				11F2A7232D119DA600E47F78 /* MockChartData.swift in Sources */,
 				11DECDBC2CE0C3E800526954 /* InputView.swift in Sources */,
 				11FF9F662D045A07006D967D /* SwiftUIViewEssential.swift in Sources */,
