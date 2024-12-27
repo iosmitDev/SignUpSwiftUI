@@ -21,6 +21,8 @@ import Combine
  Pull = fetch remote commits to local repo
  Branch = Create new branch from main
  Pull Request (PR) = Request to merge branch
+ PR Merge => Merge all commits
+ PR Squash and merge => Squash all commits into one and then merge one commit
  
  New feature :
  [Feature] Description of the feature
