@@ -6,12 +6,27 @@
 //
 
 import SwiftUI
+import SocialLoginFramework
 
 struct exploreView: View {
     var body: some View {
-        Text("ExploreView")
+        VStack() {
+            Text("ExploreView")
+                .centerHorizontaly()
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(.red)
+               
+        }
+       
+            
+    }
+    
+    func testmethod() {
+        
     }
 }
+
+
 
 #Preview {
     exploreView()
