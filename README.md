@@ -2,6 +2,6 @@
 
 - Added test data in it
 
-[www.google.com]
+www.google.com
 
 ## AboutMe
